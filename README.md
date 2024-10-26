@@ -41,10 +41,10 @@ Develop a system that analyzes large financial datasets (e.g., stock prices, tra
 
 # Code Structure
 
-.
-+-- main.py
-|   +-- algorithm.py
-|   +-- tests.py
+COMPSC463Proj1
+└── main.py
+└── algorithm.py
+└── tests.py
 
 - main.py: Driver code for the application.
 - algorithm.py: Contains the various algorithms used to produce the analysis results based on the data.
