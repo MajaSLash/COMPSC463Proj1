@@ -45,7 +45,7 @@ main.py
 |_ algorithm.py
 
 main.py: Driver code for the application.
-algorithm.py: Contains teh various algorithms used to produce the analysis results based on the data.
+algorithm.py: Contains the various algorithms used to produce the analysis results based on the data.
 
 # Tutorial
 
@@ -53,6 +53,11 @@ algorithm.py: Contains teh various algorithms used to produce the analysis resul
 pip install numpy pandas matplotlib
 
 ## Guide
+- Download a dataframe from Kaggle to a CSV file (Instructions linked [here](https://www.kaggle.com/discussions/getting-started/58426)).
+- Move the file into this project's directory.
+- Run the program from main.py
+- When prompted, enter the filename into the project.
+- There are dedicated "TEST CASE" portions of the project designated by the comment section above and below it. The values can modified as needed.
 
 # Test Cases
 
@@ -61,3 +66,4 @@ pip install numpy pandas matplotlib
 ## Test Cases for Individual Parts
 
 # Conclusion
+This project has helped demonstrate the usefulness of the material learned in COMPSC463 so far in the semester. The program utilized the many different algorithms and general coding ability of the student in order to successfully complete it. The inclusion of the different algorithms did not feel too out of place, as well as the project topic felt natural to what could be encountered in the development industry. One improvement that could be added to this project (as it was not needed, but I included anyway in my version) is the importance of the built-in test cases. This works great for the grader, as they do not have to insert values manually into the program in order to validate the program and instead can have the option of a "TEST CASE" mode.
