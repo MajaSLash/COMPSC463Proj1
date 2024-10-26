@@ -4,11 +4,11 @@ Project Repository for COMPSC463 Project 1.
 
 # Description of the project
 
-## Problem Description
+*Problem Description*
 
 Develop a system that analyzes large financial datasets (e.g., stock prices, transaction logs, or cryptocurrency data) to detect patterns, trends, and anomalies. The system will use divide-and-conquer techniques to efficiently process, analyze, and report on financial data for decision-making purposes.
 
-## Key components and algorithms
+*Key components and algorithms*
 
 - Merge sort for time-series data processing
 - Using merge sort, you can efficiently sort massive datasets
@@ -21,7 +21,7 @@ Develop a system that analyzes large financial datasets (e.g., stock prices, tra
 - Detecting unusual spikes or dips in trade prices, volumes, or transaction times, which could signal fraud or other financial irregularities.
  
 
-## Outline of the Project (These steps provide the overall expected works. You do not need to follow steps in the same way)
+*Outline of the Project (These steps provide the overall expected works. You do not need to follow steps in the same way)*
 
 - Input: A large dataset of stock prices, cryptocurrency prices, or transaction logs.
 - This data can be sourced from public financial data APIs or historical datasets (e.g., daily stock prices over a year or millions of cryptocurrency transactions).
@@ -41,9 +41,9 @@ Develop a system that analyzes large financial datasets (e.g., stock prices, tra
 
 # Code Structure
 
-main.py
-\_ algorithm.py
-\_ tests.py
+- main.py
+  - algorithm.py
+  - tests.py
 
 - main.py: Driver code for the application.
 - algorithm.py: Contains the various algorithms used to produce the analysis results based on the data.
@@ -51,21 +51,21 @@ main.py
 
 # Tutorial
 
-## Required Installs
+*Required Installs*
 pip install numpy pandas matplotlib
 
-## Guide
+*Guide*
 - Download a dataframe from Kaggle to a CSV file (Instructions linked [here](https://www.kaggle.com/discussions/getting-started/58426)).
 - Move the file into this project's directory.
 - Run the program from main.py
 - When prompted, enter the filename into the project.
-- There are dedicated "TEST CASE" portions of the project designated by the comment section above and below it. The values can modified as needed.
+- To use the test case suite, run `python -m unittest tests.py -v` in your terminal.
 
 # Test Cases
 
-## Main Program Test Cases
+*Main Program Test Cases*
 
-## Test Cases for Individual Parts
+*Test Cases for Individual Parts*
 
 # Conclusion
-This project has helped demonstrate the usefulness of the material learned in COMPSC463 so far in the semester. The program utilized the many different algorithms and general coding ability of the student in order to successfully complete it. The inclusion of the different algorithms did not feel too out of place, as well as the project topic felt natural to what could be encountered in the development industry. One improvement that could be added to this project (as it was not needed, but I included anyway in my version) is the importance of the built-in test cases. This works great for the grader, as they do not have to insert values manually into the program in order to validate the program and instead can have the option of a "TEST CASE" mode.
+This project has helped demonstrate the usefulness of the material learned in COMPSC463 so far in the semester. The program utilized the many different algorithms and general coding ability of the student in order to successfully complete it. The inclusion of the different algorithms did not feel too out of place, as well as the project topic felt natural to what could be encountered in the development industry. One improvement that could be added to this project (as it was not needed, but I included anyway in my version) is the importance of the built-in test cases. This works great for the grader, as they do not have to insert values manually into the program in order to validate the program and instead can have the option of a "TEST" mode.
