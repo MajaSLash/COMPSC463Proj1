@@ -44,13 +44,27 @@ report_images (Not relevant to application)<br>
     └── image-1.png<br>
     └── image-2.png<br>
     └── image.png<br>
+
 COMPSC463Proj1<br>
     └── main.py<br>
     └── algorithm.py<br>
     └── tests.py<br>
 
 - main.py: Driver code for the application.
+
 - algorithm.py: Contains the various algorithms used to produce the analysis results based on the data.
+  - Classes:
+    - FinancialDataPoint: Stores a single point of financial data
+    - AnomalyReport: Stores information about detected anomalies
+  - Methods:
+    - load_data: Initializes the analyzer with financial data
+      - load_csv: Loads given CSV file and passes data into `load_data()`
+    - merge_sort: Implementation of merge sort with O(n log n) complexity; Sorted list of FinancialDataPoint objects
+      - _merge: Helper function for merge sort
+    - find_max_subarray: Finds period of maximum gain using divide-and-conquer
+    - detect_anomalies: Uses rolling statistics and z-scores for detection of unusual price movements
+    - generate_report: Combines results from all analysis functions
+
 - tests.py: Test cases for application functions.
 
 # Tutorial
@@ -78,4 +92,4 @@ Indiviudal Cases for each function are located in test.py
 - Example Usage:
   - Output: ![alt text](report_images/image-2.png)
 # Conclusion
-This project has helped demonstrate the usefulness of the material learned in COMPSC463 so far in the semester. The program utilized the many different algorithms and general coding ability of the student in order to successfully complete it. The inclusion of the different algorithms did not feel too out of place, as well as the project topic felt natural to what could be encountered in the development industry. One improvement that could be added to this project (as it was not needed, but I included anyway in my version) is the importance of the built-in test cases. This works great for the grader, as they do not have to insert values manually into the program in order to validate the program and instead can have the option of a "TEST" mode.
+This project has helped demonstrate the usefulness of the material learned in COMPSC463 so far in the semester. The program utilized the many different algorithms and general coding ability of the student in order to successfully complete it. The inclusion of the different algorithms did not feel too out of place, as well as the project topic felt natural to what could be encountered in the development industry. One improvement that could be added to this project (as it was not needed, but I included anyway in my version) is the importance of the built-in test cases. This improves efficiency for the grader, as they do not have to insert values manually into the program in order to validate the program and instead can have the option of a "TEST" mode.
