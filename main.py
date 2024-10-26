@@ -6,6 +6,7 @@ import random
 analyzer = algorithm.FinancialAnalyzer()
 
 #Check for CSV input
+print("Welcome to the Data Analysis System!\n (TEST ENVIRONMENT: python -m unittest tests.py -v)")
 print("Enter csv file (press ENTER for test data):")
 filename = input()
 if(filename):

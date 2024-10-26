@@ -42,10 +42,12 @@ Develop a system that analyzes large financial datasets (e.g., stock prices, tra
 # Code Structure
 
 main.py
-|_ algorithm.py
+\_ algorithm.py
+\_ tests.py
 
 - main.py: Driver code for the application.
 - algorithm.py: Contains the various algorithms used to produce the analysis results based on the data.
+- tests.py: Test cases for application functions.
 
 # Tutorial
 
