@@ -22,6 +22,21 @@ class AnomalyReport:
 class FinancialAnalyzer:
     def __init__(self):
         self.data: List[FinancialDataPoint] = []
+
+    def load_csv(filepath):
+        # Read CSV file
+        df = pd.read_csv(filepath)
+        
+        # Convert date column to datetime
+        df['date'] = pd.to_datetime(df['date'])
+        
+        # Initialize analyzer with data
+        analyzer = FinancialAnalyzer()
+        analyzer.load_data(
+            timestamps=df['date'].tolist(),
+            prices=df['price'].tolist(),
+            volumes=df['volume'].tolist() if 'volume' in df.columns else None
+        )
         
     def load_data(self, timestamps: List[datetime], prices: List[float], volumes: Optional[List[float]] = None):
         """Load financial data into the analyzer."""
