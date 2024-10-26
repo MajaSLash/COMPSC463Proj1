@@ -65,8 +65,10 @@ pip install numpy pandas matplotlib
 # Test Cases
 
 *Main Program Test Cases*
+The test case option for the main program can be accessed when no CSV file is entered. This will generate random data to be inserted into the program.
 
 *Test Cases for Individual Parts*
+Indiviudal Cases for each function are located in test.py
 
 # Conclusion
 This project has helped demonstrate the usefulness of the material learned in COMPSC463 so far in the semester. The program utilized the many different algorithms and general coding ability of the student in order to successfully complete it. The inclusion of the different algorithms did not feel too out of place, as well as the project topic felt natural to what could be encountered in the development industry. One improvement that could be added to this project (as it was not needed, but I included anyway in my version) is the importance of the built-in test cases. This works great for the grader, as they do not have to insert values manually into the program in order to validate the program and instead can have the option of a "TEST" mode.
