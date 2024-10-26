@@ -40,11 +40,14 @@ Develop a system that analyzes large financial datasets (e.g., stock prices, tra
 - Output: The system generates detailed reports or graphs summarizing stock market trends, periods of high performance, or suspicious financial transactions.
 
 # Code Structure
-
-COMPSC463Proj1
-└── main.py
-└── algorithm.py
-└── tests.py
+report_images (Not relevant to application)<br>
+    └── image-1.png<br>
+    └── image-2.png<br>
+    └── image.png<br>
+COMPSC463Proj1<br>
+    └── main.py<br>
+    └── algorithm.py<br>
+    └── tests.py<br>
 
 - main.py: Driver code for the application.
 - algorithm.py: Contains the various algorithms used to produce the analysis results based on the data.
