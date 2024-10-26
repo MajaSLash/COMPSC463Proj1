@@ -73,6 +73,7 @@ COMPSC463Proj1<br>
 pip install numpy pandas matplotlib
 
 *Guide*
+- Run `git clone https://github.com/MajaSLash/COMPSC463Proj1.git` in your terminal to download this repository.
 - Download a dataframe from Kaggle to a CSV file (Instructions linked [here](https://www.kaggle.com/discussions/getting-started/58426)).
 - Move the file into this project's directory.
 - Run the program from main.py
